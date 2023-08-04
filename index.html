@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Natures Bounty</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- navigation bar -->
+    <header>
+      <div class="hero--block">
+        <nav class="nav collapsible">
+          <img
+            class="nav__logo"
+            src="./images/nature-logo.png"
+            alt="Nature's bounty logo"
+          />
+          <svg class="icon nav__toggler">
+            <use xlink:href="images/sprite.svg#hamburger"></use>
+          </svg>
+          <ul class="list nav__list collapsible__content">
+            <li class="nav__items"><a href="#">Home</a></li>
+            <li class="nav__items"><a href="#about-us">About Us</a></li>
+            <li class="nav__items"><a href="#product">Product</a></li>
+            <li class="nav__items"><a href="#testimonial">Testimonial</a></li>
+            <li class="nav__items"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="hero">
+          <div class="container grid hero__grid">
+            <section class="hero__content" data-aos="fade-down">
+              <h1>Pick Your Own Straight from the Farm</h1>
+              <p class="hero__tagline">
+                Come and taste the difference that organic farming can make.
+                Visit us today and discover the joys of fresh, flavorful, and
+                healthy vegetables and fruits straight from the farm.
+              </p>
+              <button class="btn btn--primary btn--stretched">Shop now</button>
+            </section>
+            <img
+              class="hero__image"
+              src="./images/vegetables.png"
+              data-aos="zoom-in"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- service block -->
+    <div class="block container grid service__block">
+      <section class="service" data-aos="fade-right">
+        <img
+          class="service__icon"
+          src="./images/free-delivery.png"
+          alt="free delivery"
+        />
+        <p class="service__title">Free Delivery</p>
+      </section>
+
+      <section class="service" data-aos="fade-up">
+        <img
+          class="service__icon"
+          src="./images/best-quality.png"
+          alt="free delivery"
+        />
+        <p class="service__title">Best Quality</p>
+      </section>
+
+      <section class="service" data-aos="fade-left">
+        <img
+          class="service__icon"
+          src="./images/organic.png"
+          alt="free delivery"
+        />
+        <p class="service__title">100% Organic</p>
+      </section>
+    </div>
+
+    <!-- About us -->
+    <section id="about-us" class="block about--block">
+      <div class="container grid grid--1x2">
+        <img
+          class="about__image"
+          src="./images/about-us.png"
+          data-aos="zoom-in"
+        />
+        <div class="about__body" data-aos="slide-up">
+          <span class="strapline">About us</span>
+          <h2>Cultivating Health and Sustainability</h2>
+          <p>
+            We understand that choosing organic is not just about personal
+            health but also about the health of our planet. By opting for
+            organic vegetables, you are supporting a farming system that
+            promotes soil conservation, reduces water pollution, and protects
+            wildlife habitats. You can have confidence knowing that the
+            vegetables you purchase from us are grown with the utmost care for
+            both your well-being and the environment.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- our products -->
+    <div id="product" class="container card--block">
+      <div class="block">
+        <span class="strapline">Offers</span>
+        <h2>Our Products</h2>
+      </div>
+
+      <div class="grid grid--1x2 grid--1x3">
+        <section class="card" data-aos="fade-right">
+          <img class="card__image" src="./images/coconut.png" alt="coconut" />
+          <p class="card__title">Coconut</p>
+          <div class="card__body">
+            <p><span class="card__price-strike">₹ 50</span>₹ 30</p>
+            <div>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+            </div>
+          </div>
+        </section>
+
+        <section class="card" data-aos="zoom-in">
+          <img class="card__image" src="./images/mango.png" alt="coconut" />
+          <p class="card__title">Mango</p>
+          <div class="card__body">
+            <p><span class="card__price-strike">₹ 50</span>₹ 30</p>
+            <div>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+            </div>
+          </div>
+        </section>
+
+        <section class="card" data-aos="fade-left">
+          <img class="card__image" src="./images/brinjal.png" alt="coconut" />
+          <p class="card__title">Brinjal</p>
+          <div class="card__body">
+            <p><span class="card__price-strike">₹ 50</span>₹ 30</p>
+            <div>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+            </div>
+          </div>
+        </section>
+
+        <section class="card" data-aos="fade-right">
+          <img
+            class="card__image"
+            src="./images/sweet-potato.png"
+            alt="coconut"
+          />
+          <p class="card__title">Sweet potato</p>
+          <div class="card__body">
+            <p><span class="card__price-strike">₹ 50</span>₹ 30</p>
+            <div>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+            </div>
+          </div>
+        </section>
+
+        <section class="card" data-aos="zoom-in">
+          <img
+            class="card__image"
+            src="./images/sugar-apple.png"
+            alt="coconut"
+          />
+          <p class="card__title">Sugar apple</p>
+          <div class="card__body">
+            <p><span class="card__price-strike">₹ 50</span>₹ 30</p>
+            <div>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+            </div>
+          </div>
+        </section>
+
+        <section class="card" data-aos="fade-left">
+          <img class="card__image" src="./images/spinach.png" alt="coconut" />
+          <p class="card__title">Spinach</p>
+          <div class="card__body">
+            <p><span class="card__price-strike">₹ 50</span>₹ 30</p>
+            <div>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <section class="media--block block">
+      <div class="media__banner">
+        <div class="grid grid--1x2 container">
+          <div class="media__content" data-aos="zoom-out-left">
+            <span class="strapline">Farm-Fresh Goodness </span>
+            <h2 class="media__title">Delivered to Your Doorstep</h2>
+            <button class="btn btn--primary">Shop now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonial" class="Testimonial--block">
+      <div class="block container">
+        <span class="strapline">Testimonial</span>
+        <h2>What Our Customer Saying?</h2>
+        <div class="grid testimonial__grid">
+          <img
+            class="testimonial__image"
+            src="./images/monica.png"
+            data-aos="fade-right"
+          />
+
+          <div class="carousel testimonial__carousel">
+            <span class="carousel__cirlce"></span>
+            <span class="fa fa fa-heart carousel__heart"></span>
+            <span class="carousel__cirlce"></span>
+            <span class="carousel__cirlce"></span>
+            <!-- <span class="line"></span>
+            <span class="diamond"></span> -->
+          </div>
+
+          <div class="testimonial__content" data-aos="fade-up">
+            <p class="testimonial__text">
+              Moreover, the peace of mind that comes with knowing I am consuming
+              vegetables that are free from harmful chemicals is invaluable. By
+              supporting organic farming practices, I am not only prioritizing
+              my health but also contributing to the well-being of the
+              environment. It's a win-win situation.
+            </p>
+            <p class="testimonial_client-name">- Monica</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container callout">
+      <div class="grid grid--1x2">
+        <h2 class="callout__heading">Subscribe to our Newsletter</h2>
+        <div class="input-group">
+          <input
+            type="email"
+            placeholder="Enter your e-mail ID"
+            class="input"
+          />
+          <button class="btn btn--primary">Submit</button>
+        </div>
+      </div>
+    </div>
+
+    <footer id="contact" class="footer">
+      <div class="grid footer__sections">
+        <section class="collapsible collapsible--expanded footer__section">
+          <div class="collapsible__header">
+            <h3 class="footer__heading">Contact us</h3>
+            <img
+              class="icon--arrow collapsible__arrow"
+              src="./images/arrow.png"
+              alt=""
+            />
+          </div>
+          <div class="collapsible__content">
+            <h4 class="footer__sub-heading">Address</h4>
+            <p class="footer__text">
+              2/4 mayers street, Thottacheri, Tuticorin-628613
+            </p>
+            <h4 class="footer__sub-heading">Phone</h4>
+            <p class="footer__text">+91-9677614700</p>
+            <h4 class="footer__sub-heading">Email</h4>
+            <p class="footer__text">naturesbounty@gmail.com</p>
+          </div>
+        </section>
+
+        <section class="collapsible footer__section">
+          <div class="collapsible__header">
+            <h3 class="footer__heading">Opening Hours</h3>
+            <img
+              class="icon--arrow collapsible__arrow"
+              src="./images/arrow.png"
+              alt=""
+            />
+          </div>
+          <div class="collapsible__content">
+            <h4 class="footer__sub-heading">Monday-Friday</h4>
+            <p class="footer__text">9:00am to 3:00pm</p>
+            <h4 class="footer__sub-heading">Saturday-Sunday</h4>
+            <p class="footer__text">9:00am to 11:00am</p>
+          </div>
+        </section>
+
+        <section class="footer__section">
+          <div>
+            <h3 class="footer__heading">Show us some love!</h3>
+          </div>
+          <div>
+            <ul class="list footer__list">
+              <li>
+                <a href="#"
+                  ><img class="footer__icon" src="./images/facebook.png"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img class="footer__icon" src="./images/twitter.png"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img class="footer__icon" src="./images/instagram.png"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img class="footer__icon" src="./images/youtube.png"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="block footer__section footer__brand">
+          <img class="footer__logo" src="./images/nature-logo-white.png" />
+          <p class="footer__text">
+            Join us in embracing a healthier lifestyle while supporting
+            sustainable agriculture and a greener future.
+          </p>
+        </section>
+      </div>
+      <div>
+        <p class="footer__copyrights">
+          2023 Nature’s bounty - Developed by Deepak
+        </p>
+      </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
